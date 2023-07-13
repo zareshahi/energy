@@ -31,10 +31,6 @@ export default function Dashboard(props) {
         return window.location.pathname !== '/admin/full-screen-maps';
     };
 
-    const changeDir = () => {
-        setDir(dir === "ltr" ? "rtl" : "ltr");
-    }
-
     const getActiveRoute = (routes) => {
         let activeRoute = 'Default Brand Text';
         for (let i = 0; i < routes.length; i++) {
