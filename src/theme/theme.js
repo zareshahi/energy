@@ -11,6 +11,7 @@ import {CardHeaderComponent} from './additions/card/CardHeader';
 import {MainPanelComponent} from './additions/layout/MainPanel';
 import {PanelContentComponent} from './additions/layout/PanelContent';
 import {PanelContainerComponent} from './additions/layout/PanelContainer';
+import Dashboard from "../layouts/Admin";
 // import { mode } from "@chakra-ui/theme-tools";
 export default extendTheme(
     {breakpoints}, // Breakpoints
@@ -24,5 +25,6 @@ export default extendTheme(
     CardHeaderComponent, // Card Header component
     MainPanelComponent, // Main Panel component
     PanelContentComponent, // Panel Content component
-    PanelContainerComponent // Panel Container component
+    PanelContainerComponent, // Panel Container component
+    {direction: Dashboard.dir}
 );
