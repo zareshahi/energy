@@ -10,11 +10,11 @@ export const globalStyles = {
         global: (props) => ({
             body: {
                 bg: mode('gray.50', 'gray.800')(props),
-                fontFamily: "'Roboto', sans-serif"
-            },
-            html: {
-                fontFamily: "'Roboto', sans-serif"
             }
         })
+    },
+    fonts: {
+        heading: "estedad",
+        body: "estedad"
     }
 };
