@@ -4,33 +4,43 @@
 
 ![Product Gif](https://i.ibb.co/7NXMZQS/Cover-Purity-Chakra-FREE-Thumbnail.png)
 
-Most trendiest, complex and innovative Dashboard Made by [Creative Tim](https://creative-tim.com/?ref=readme-pud) & [Simmmple](https://simmmple.com?ref=readme-pud). Check our latest Free ReactJS Dashboard based on Chakra UI.
+Most trendiest, complex and innovative Dashboard Made
+by [Creative Tim](https://creative-tim.com/?ref=readme-pud) & [Simmmple](https://simmmple.com?ref=readme-pud). Check our
+latest Free ReactJS Dashboard based on Chakra UI.
 
-Designed for those who like modern UI elements and beautiful websites. Made of hundred of elements, designed blocks and fully coded pages, Purity UI Dashboard is ready to help you create stunning websites and webapps.
+Designed for those who like modern UI elements and beautiful websites. Made of hundred of elements, designed blocks and
+fully coded pages, Purity UI Dashboard is ready to help you create stunning websites and webapps.
 
-We created many examples for pages like Sign In, Profile and so on. Just choose between a Basic Design, an illustration or a cover and you are good to go!
+We created many examples for pages like Sign In, Profile and so on. Just choose between a Basic Design, an illustration
+or a cover and you are good to go!
 
 **Fully Coded Elements**
 
-Purity UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using Chakra's style props.
+Purity UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or
+alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can
+easily modify using Chakra's style props.
 
 You will save a lot of time going from prototyping to full-functional code, because all elements are implemented.
 This Free Chakra UI Dashboard is coming with prebuilt design blocks, so the development process is seamless,
 switching from our pages to the real website is very easy to be done.
 
-Check all components <a href="https://demos.creative-tim.com/docs-purity-ui-dashboard/?ref=readme-pud" target="_blank">here</a>.
+Check all components <a href="https://demos.creative-tim.com/docs-purity-ui-dashboard/?ref=readme-pud" target="_blank">
+here</a>.
 
 **Documentation built by Developers**
 
 Each element is well presented in a very complex documentation.
-You can read more about the <a href="https://demos.creative-tim.com/docs-purity-ui-dashboard/?ref=readme-pud" target="_blank">documentation here</a>.
+You can read more about
+the <a href="https://demos.creative-tim.com/docs-purity-ui-dashboard/?ref=readme-pud" target="_blank">documentation
+here</a>.
 
 **Example Pages**
 
 If you want to get inspiration or just show something directly to your clients,
 you can jump start your development with our pre-built example pages. You will be able
 to quickly set up the basic structure for your web project.
-View <a href="https://demos.creative-tim.com/purity-ui-dashboard/#/admin/dashboard?ref=readme-pud" target="_blank">example pages here</a>.
+View <a href="https://demos.creative-tim.com/purity-ui-dashboard/#/admin/dashboard?ref=readme-pud" target="_blank">
+example pages here</a>.
 
 **HELPFUL LINKS**
 
@@ -40,7 +50,8 @@ View <a href="https://demos.creative-tim.com/purity-ui-dashboard/#/admin/dashboa
 
 #### Special thanks
 
-During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
+During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank
+them for providing their tools open source:
 
 - [Chakra UI](https://www.chakra-ui.com?ref=creative-tim) - Open source ReactJS framework
 - [ApexCharts.js](https://apexcharts.com?ref=creative-tim) - Modern & Interactive Open-source charts
@@ -69,7 +80,7 @@ Let us know your thoughts below. And good luck with development!
 [<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/figma-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud)
 
 | React                                                                                                                                                                                        | Figma                                                                                                                                                                                   |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Purity Free ReactJS Chakra Dashboard](https://i.ibb.co/Ct9RvRZ/Cover-Purity-Chakra-FREE-Thumbnail-React-JS.png)](https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud) | [![Purity Free Figma Chakra Dashboard](https://i.ibb.co/wRK0jbK/Cover-Purity-Chakra-FREE-Thumbnail-Figma.png)](https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud) |
 
 ## Demo
@@ -222,9 +233,12 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the Purity UI Dashboard. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Purity UI Dashboard. Here are some advices for our users that
+want to report an issue:
 
-1. Make sure that you are using the latest version of the Purity UI Dashbaord. Check the CHANGELOG from your dashboard on our [CHANGE LOG File](https://github.com/creativetimofficial/purity-ui-dashboard/blob/main/CHANGELOG.md?ref=readme-pud).
+1. Make sure that you are using the latest version of the Purity UI Dashbaord. Check the CHANGELOG from your dashboard
+   on
+   our [CHANGE LOG File](https://github.com/creativetimofficial/purity-ui-dashboard/blob/main/CHANGELOG.md?ref=readme-pud).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 

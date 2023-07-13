@@ -4,7 +4,9 @@
 
 ### Update v2.0.3
 
-- We deleted `fonts.js` and now you can change the fonts directly in `src/theme/styles.js`. You can also use @fontsource and import your fonts that way as well!
+- We deleted `fonts.js` and now you can change the fonts directly in `src/theme/styles.js`. You can also use @fontsource
+  and import your fonts that way as well!
+
 ## [2.0.2] 2022-05-16
 
 ### Update v2.0.2
@@ -29,7 +31,8 @@ chakra-ui/system                      1.12.1
 
 ### Update v2.0.1
 
-- The problem with npm install/ building the project was solved. Until the plugins we used are updated for React v17.0.2 we are reverting to 16.14.0 for the moment.
+- The problem with npm install/ building the project was solved. Until the plugins we used are updated for React v17.0.2
+  we are reverting to 16.14.0 for the moment.
 
 ### Updated dependencies
 
@@ -48,9 +51,11 @@ stylis-plugin-rtl                    2.1.0          →         2.1.1
 
 ### Added components
 
-- Each page now has a folder of its own, containing `index.js` (for the page itself) and a folder in which all cards have been made as a separate component which take props.
+- Each page now has a folder of its own, containing `index.js` (for the page itself) and a folder in which all cards
+  have been made as a separate component which take props.
 - Added sidebar content which is used for both the standard sidebar and the responsive sidebar drawer.
-- Inside `Sidebar` folder in `components`, there is `index.js`, which is the actual sidebar, and `SidebarResponsive.js` which is a button that opens the sidebar drawer.
+- Inside `Sidebar` folder in `components`, there is `index.js`, which is the actual sidebar, and `SidebarResponsive.js`
+  which is a button that opens the sidebar drawer.
 
 ### Updated dependencies
 
@@ -64,7 +69,8 @@ stylis                               4.0.10         →         4.0.13
 
 ### Warning
 
-There is a warnings related to the stylis-plugin-rtl dependency that won't affect on the behavior of the product its something with the library itself.
+There is a warnings related to the stylis-plugin-rtl dependency that won't affect on the behavior of the product its
+something with the library itself.
 
 ## [1.0.2] 2021-09-13
 
