@@ -1,0 +1,7 @@
+input::-webkit-input-placeholder {
+    text-align: right;
+}
+
+switch {
+    direction: ltr;
+}

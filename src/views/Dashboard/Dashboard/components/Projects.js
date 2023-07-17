@@ -26,10 +26,10 @@ const Projects = ({title, amount, captions, data}) => {
                             pe='3px'
                         />
                         <Text fontSize='sm' color='gray.400' fontWeight='normal'>
-                            <Text fontWeight='bold' as='span'>
-                                {amount} done
+                             در این ماه
+                            <Text fontWeight='bold' as='span' marginRight="4px">
+                                 {amount} عدد انجام شد
                             </Text>{" "}
-                            this month.
                         </Text>
                     </Flex>
                 </Flex>

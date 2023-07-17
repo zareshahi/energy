@@ -85,7 +85,7 @@ export default function AuthNavbar(props) {
                     variant="transparent-with-icon"
                     leftIcon={<HomeIcon color={navbarIcon} w="12px" h="12px" me="0px"/>}
                 >
-                    <Text>Dashboard</Text>
+                    <Text>داشبورد</Text>
                 </Button>
             </NavLink>
             <NavLink to="/admin/profile">
@@ -101,7 +101,7 @@ export default function AuthNavbar(props) {
                         <PersonIcon color={navbarIcon} w="12px" h="12px" me="0px"/>
                     }
                 >
-                    <Text>Profile</Text>
+                    <Text>پروفایل</Text>
                 </Button>
             </NavLink>
             <NavLink to="/auth/signup">
@@ -117,7 +117,7 @@ export default function AuthNavbar(props) {
                         <RocketIcon color={navbarIcon} w="12px" h="12px" me="0px"/>
                     }
                 >
-                    <Text>Sign Up</Text>
+                    <Text>ثبت نام</Text>
                 </Button>
             </NavLink>
             <NavLink to="/auth/signin">
@@ -132,7 +132,7 @@ export default function AuthNavbar(props) {
                         <DocumentIcon color={navbarIcon} w="12px" h="12px" me="0px"/>
                     }
                 >
-                    <Text>Sign In</Text>
+                    <Text>ورود</Text>
                 </Button>
             </NavLink>
         </HStack>
@@ -155,6 +155,7 @@ export default function AuthNavbar(props) {
             width="1044px"
             maxW="90%"
             alignItems="center"
+            style={{direction:"rtl"}}
         >
             <Flex w="100%" justifyContent={{sm: "start", lg: "space-between"}}>
                 {brand}
@@ -184,7 +185,7 @@ export default function AuthNavbar(props) {
                             lg: "flex",
                         }}
                     >
-                        Free Download
+                        دانلود رایگان
                     </Button>
                 </Link>
             </Flex>

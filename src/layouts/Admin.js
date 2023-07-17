@@ -95,7 +95,7 @@ export default function Dashboard(props) {
 
                 <Sidebar
                     routes={routes}
-                    logoText={'PURITY UI DASHBOARD'}
+                    logoText={'داشبورد انرژی'}
                     display='none'
                     sidebarVariant={sidebarVariant}
                     {...rest}
@@ -109,7 +109,7 @@ export default function Dashboard(props) {
                     <Portal>
                         <AdminNavbar
                             onOpen={onOpen}
-                            logoText={'PURITY UI DASHBOARD'}
+                            logoText={'داشبورد انرژی'}
                             brandText={getActiveRoute(routes)}
                             secondary={getActiveNavbar(routes)}
                             fixed={fixed}

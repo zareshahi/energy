@@ -25,6 +25,7 @@ const ChartStatistics = ({title, amount, icon, percentage}) => {
                 borderRadius='12px'
                 h='5px'
                 value={percentage}
+                direction="ltr"
             />
         </Flex>
     );

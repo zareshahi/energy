@@ -1,6 +1,6 @@
 export const barChartData = [
     {
-        name: "Sales",
+        name: "فروش",
         data: [330, 250, 110, 300, 490, 350, 270, 130, 425],
     },
 ];
@@ -10,24 +10,23 @@ export const barChartOptions = {
         toolbar: {
             show: false,
         },
+        fontFamily: "estedad"
     },
     tooltip: {
         style: {
             backgroundColor: "red",
             fontSize: "12px",
-            fontFamily: undefined,
         },
         onDatasetHover: {
             style: {
                 backgroundColor: "red",
                 fontSize: "12px",
-                fontFamily: undefined,
             },
         },
         theme: "dark",
     },
     xaxis: {
-        categories: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        categories: ["فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر"],
         show: false,
         labels: {
             show: false,
@@ -52,6 +51,7 @@ export const barChartOptions = {
                 colors: "#fff",
                 fontSize: "14px",
             },
+            padding: "0px"
         },
     },
     grid: {
@@ -85,11 +85,11 @@ export const barChartOptions = {
 
 export const lineChartData = [
     {
-        name: "Mobile apps",
+        name: "نرم افزارهای موبایلی",
         data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
     },
     {
-        name: "Websites",
+        name: "وبسایت‌ها",
         data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
     },
 ];
@@ -99,6 +99,7 @@ export const lineChartOptions = {
         toolbar: {
             show: false,
         },
+        fontFamily: "estedad"
     },
     tooltip: {
         theme: "dark",
@@ -112,18 +113,18 @@ export const lineChartOptions = {
     xaxis: {
         type: "datetime",
         categories: [
-            "Jan",
-            "Feb",
-            "Mar",
-            "Apr",
-            "May",
-            "Jun",
-            "Jul",
-            "Aug",
-            "Sep",
-            "Oct",
-            "Nov",
-            "Dec",
+            "فروردین",
+            "اردیبهشت",
+            "خرداد",
+            "تیر",
+            "مرداد",
+            "شهریور",
+            "مهر",
+            "آبان",
+            "آذر",
+            "دی",
+            "بهمن",
+            "اسفند",
         ],
         labels: {
             style: {

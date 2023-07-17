@@ -27,30 +27,30 @@ const ActiveUsers = ({title, percentage, chart}) => {
                                 fontWeight='bold'>
                                 {percentage > 0 ? `+${percentage}%` : `-${percentage}%`}
                             </Text>{" "}
-                            than last week
+                            ماه گذشته
                         </Text>
                     </Flex>
                     <SimpleGrid gap={{sm: "12px"}} columns={4}>
                         <ChartStatistics
-                            title={"Users"}
+                            title={"کاربران"}
                             amount={"32,984"}
                             percentage={20}
                             icon={<WalletIcon h={"15px"} w={"15px"} color={iconBoxInside}/>}
                         />
                         <ChartStatistics
-                            title={"Clicks"}
+                            title={"کلیک‌ها"}
                             amount={"2.42m"}
                             percentage={80}
                             icon={<RocketIcon h={"15px"} w={"15px"} color={iconBoxInside}/>}
                         />
                         <ChartStatistics
-                            title={"Sales"}
+                            title={"فروش"}
                             amount={"2,400$"}
                             percentage={30}
                             icon={<CartIcon h={"15px"} w={"15px"} color={iconBoxInside}/>}
                         />
                         <ChartStatistics
-                            title={"Items"}
+                            title={"آیتم‌ها"}
                             amount={"320"}
                             percentage={40}
                             icon={<StatsIcon h={"15px"} w={"15px"} color={iconBoxInside}/>}

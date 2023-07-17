@@ -21,7 +21,7 @@ function SignIn() {
     const titleColor = useColorModeValue("teal.300", "teal.200");
     const textColor = useColorModeValue("gray.400", "white");
     return (
-        <Flex position='relative' mb='40px'>
+        <Flex position='relative' mb='40px' style={{direction: "rtl"}}>
             <Flex
                 h={{sm: "initial", md: "75vh", lg: "85vh"}}
                 w='100%'
@@ -42,7 +42,7 @@ function SignIn() {
                         p='48px'
                         mt={{md: "150px", lg: "80px"}}>
                         <Heading color={titleColor} fontSize='32px' mb='10px'>
-                            Welcome Back
+                            خوش آمدید
                         </Heading>
                         <Text
                             mb='36px'
@@ -50,39 +50,42 @@ function SignIn() {
                             color={textColor}
                             fontWeight='bold'
                             fontSize='14px'>
-                            Enter your email and password to sign in
+                            برای ورود ایمیل و رمز عبور خود را وارد نمایید
                         </Text>
                         <FormControl>
                             <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                                Email
+                                ایمیل
                             </FormLabel>
                             <Input
                                 borderRadius='15px'
                                 mb='24px'
                                 fontSize='sm'
                                 type='text'
-                                placeholder='Your email adress'
+                                placeholder='آدرس ایمیل شما'
                                 size='lg'
+                                style={{direction: "ltr"}}
                             />
                             <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                                Password
+                                رمز عبور
                             </FormLabel>
                             <Input
                                 borderRadius='15px'
                                 mb='36px'
                                 fontSize='sm'
                                 type='password'
-                                placeholder='Your password'
+                                placeholder='رمز عبور شما'
                                 size='lg'
+                                style={{direction: "ltr"}}
                             />
                             <FormControl display='flex' alignItems='center'>
-                                <Switch id='remember-login' colorScheme='teal' me='10px'/>
+                                <Switch id='remember-login' colorScheme='teal' me='10px' style={{direction: "ltr"}}/>
                                 <FormLabel
                                     htmlFor='remember-login'
                                     mb='0'
                                     ms='1'
+                                    marginRight="1em"
                                     fontWeight='normal'>
-                                    Remember me
+                                    من را به خاطر بسپار
                                 </FormLabel>
                             </FormControl>
                             <Button
@@ -100,7 +103,7 @@ function SignIn() {
                                 _active={{
                                     bg: "teal.400",
                                 }}>
-                                SIGN IN
+                                ورود
                             </Button>
                         </FormControl>
                         <Flex
@@ -110,9 +113,9 @@ function SignIn() {
                             maxW='100%'
                             mt='0px'>
                             <Text color={textColor} fontWeight='medium'>
-                                Don't have an account?
+                                اکانت ندارید؟
                                 <Link color={titleColor} as='span' ms='5px' fontWeight='bold'>
-                                    Sign Up
+                                    ثبت نام
                                 </Link>
                             </Text>
                         </Flex>
@@ -123,7 +126,7 @@ function SignIn() {
                     overflowX='hidden'
                     h='100%'
                     w='40vw'
-                    position='absolute'
+                    position='relative'
                     right='0px'>
                     <Box
                         bgImage={signInImage}

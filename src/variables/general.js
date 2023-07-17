@@ -33,7 +33,7 @@ export const dashboardTableData = [
         logo: SlackLogo,
         name: "Fix Platform Errors",
         members: [avatar10, avatar4],
-        budget: "Not set",
+        budget: "تنظیم نشده",
         progression: 100,
     },
     {
@@ -62,38 +62,38 @@ export const dashboardTableData = [
 export const timelineData = [
     {
         logo: FaBell,
-        title: "$2400, Design changes",
-        date: "22 DEC 7:20 PM",
+        title: "$2400, تغییرات طراحی",
+        date: "22 خرداد 12:30",
         color: "teal.300",
     },
     {
         logo: FaHtml5,
-        title: "New order #4219423",
-        date: "21 DEC 11:21 PM",
+        title: "سفارش جدید به شماره #4219423",
+        date: "21 خرداد 11:30",
         color: "orange",
     },
     {
         logo: FaShoppingCart,
-        title: "Server Payments for April",
-        date: "21 DEC 9:28 PM",
+        title: "پرداخت‌های سرور برای ماه خرداد",
+        date: "29 خرداد 12:45",
         color: "blue.400",
     },
     {
         logo: FaCreditCard,
-        title: "New card added for order #3210145",
-        date: "20 DEC 3:52 PM",
+        title: "کارت جدید به شماره #3210145 اضافه شد",
+        date: "1 تیر 12:55",
         color: "orange.300",
     },
     {
         logo: SiDropbox,
-        title: "Unlock packages for Development",
-        date: "19 DEC 11:35 PM",
+        title: "رفع مشکلات برنامه نویسی",
+        date: "5 تیر 16:30",
         color: "purple",
     },
     {
         logo: AdobexdLogo,
-        title: "New order #9851258",
-        date: "18 DEC 4:41 PM",
+        title: "سفارش جدید به شماره #9851258",
+        date: "12 تیر 19:50",
     },
 ];
 export const rtlDashboardTableData = [

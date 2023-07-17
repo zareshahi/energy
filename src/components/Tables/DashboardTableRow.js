@@ -52,6 +52,7 @@ function DashboardTableRow(props) {
                         size="xs"
                         value={progression}
                         borderRadius="15px"
+                        direction="ltr"
                     />
                 </Flex>
             </Td>
