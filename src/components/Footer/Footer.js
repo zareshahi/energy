@@ -28,32 +28,17 @@ export default function Footer(props) {
             >
                 &copy; {1900 + new Date().getYear()},{" "}
                 <Text as="span">
-                    {document.documentElement.dir === "rtl"
-                        ? " مصنوع من ❤️ بواسطة"
-                        : "Made with ❤️ by "}
+                    فارسی سازی شده با❤️ توسط
                 </Text>
+                &nbsp;
                 <Link
                     // color={linkTeal}
                     color="teal.400"
-                    href="https://www.creative-tim.com"
+                    href="https://github.com/zareshahi"
                     target="_blank"
                 >
-                    {document.documentElement.dir === "rtl"
-                        ? " توقيت الإبداعية"
-                        : "Creative Tim "}
+                    علی زارع شاهی
                 </Link>
-                &
-                <Link
-                    // color={linkTeal}
-                    color="teal.400"
-                    href="https://www.simmmple.com"
-                    target="_blank"
-                >
-                    {document.documentElement.dir === "rtl" ? "سيممبل " : " Simmmple"}
-                </Link>
-                {document.documentElement.dir === "rtl"
-                    ? "للحصول على ويب أفضل"
-                    : " for a better web"}
             </Text>
             <List display="flex">
                 <ListItem
@@ -62,10 +47,8 @@ export default function Footer(props) {
                         md: "44px",
                     }}
                 >
-                    <Link color="gray.400" href="https://www.creative-tim.com">
-                        {document.documentElement.dir === "rtl"
-                            ? "توقيت الإبداعية"
-                            : "Creative Tim"}
+                    <Link color="gray.400" href="https://github.com/zareshahi/energy">
+                        صفحه گیتهاب پروژه
                     </Link>
                 </ListItem>
                 <ListItem
@@ -74,8 +57,8 @@ export default function Footer(props) {
                         md: "44px",
                     }}
                 >
-                    <Link color="gray.400" href="https://www.simmmple.com">
-                        {document.documentElement.dir === "rtl" ? "سيممبل" : "Simmmple"}
+                    <Link color="gray.400" href="https://chakra-ui.com/">
+                        چاکرا
                     </Link>
                 </ListItem>
                 <ListItem
@@ -86,19 +69,17 @@ export default function Footer(props) {
                 >
                     <Link
                         color="gray.400"
-                        href="#blog"
-                        href="https://creative-tim.com/blog"
+                        href="https://github.com/zareshahi/energy/wiki"
                     >
-                        {document.documentElement.dir === "rtl" ? "مدونة" : "Blog"}
+                        مستندات
                     </Link>
                 </ListItem>
                 <ListItem>
                     <Link
                         color="gray.400"
-                        href="#license"
-                        href="https://www.creative-tim.com/license"
+                        href="https://github.com/creativetimofficial/purity-ui-dashboard"
                     >
-                        {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
+                        Purity UI Dashboard
                     </Link>
                 </ListItem>
             </List>
