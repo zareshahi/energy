@@ -1,5 +1,8 @@
+input {
+    text-align: left;
+}
 input::-webkit-input-placeholder {
-    text-align: right;
+    text-align: right !important;
 }
 
 switch {

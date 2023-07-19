@@ -24,19 +24,19 @@ const PlatformSettings = ({title, subtitle1, subtitle2}) => {
                     <Flex align='center' mb='20px'>
                         <Switch colorScheme='teal' me='10px'/>
                         <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-                            Email me when someone follows me
+                            اگر کسی من را دنبال کرد اطلاع بده
                         </Text>
                     </Flex>
                     <Flex align='center' mb='20px'>
                         <Switch colorScheme='teal' me='10px'/>
                         <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-                            Email me when someone answers on my post
+                            اگر کسی به من پاسخ داد اطلاع بده
                         </Text>
                     </Flex>
                     <Flex align='center' mb='20px'>
                         <Switch colorScheme='teal' me='10px'/>
                         <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-                            Email me when someone mentions me
+                            اگر کسی من را صدا زد اطلاع بده
                         </Text>
                     </Flex>
                     <Text
@@ -49,19 +49,19 @@ const PlatformSettings = ({title, subtitle1, subtitle2}) => {
                     <Flex align='center' mb='20px'>
                         <Switch colorScheme='teal' me='10px'/>
                         <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-                            New launches and projects
+                            پروژه‌های جدید
                         </Text>
                     </Flex>
                     <Flex align='center' mb='20px'>
                         <Switch colorScheme='teal' me='10px'/>
                         <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-                            Monthly product changes
+                            تغییرات ماهانه پروژه
                         </Text>
                     </Flex>
                     <Flex align='center' mb='20px'>
                         <Switch colorScheme='teal' me='10px'/>
                         <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-                            Subscribe to newsletter
+                            عضویت در خبرنامه
                         </Text>
                     </Flex>
                 </Flex>

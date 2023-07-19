@@ -16,19 +16,19 @@ function BillingRow(props) {
                         {name}
                     </Text>
                     <Text color="gray.400" fontSize="sm" fontWeight="semibold">
-                        Company Name:{" "}
+                        نام شرکت:{" "}
                         <Text as="span" color="gray.500">
                             {company}
                         </Text>
                     </Text>
                     <Text color="gray.400" fontSize="sm" fontWeight="semibold">
-                        Email Address:{" "}
+                        آدرس ایمیل:{" "}
                         <Text as="span" color="gray.500">
                             {email}
                         </Text>
                     </Text>
                     <Text color="gray.400" fontSize="sm" fontWeight="semibold">
-                        VAT Number:{" "}
+                        شماره مالیات:{" "}
                         <Text as="span" color="gray.500">
                             {number}
                         </Text>
@@ -48,7 +48,7 @@ function BillingRow(props) {
                         <Flex color="red.500" cursor="pointer" align="center" p="12px">
                             <Icon as={FaTrashAlt} me="4px"/>
                             <Text fontSize="sm" fontWeight="semibold">
-                                DELETE
+                                حذف
                             </Text>
                         </Flex>
                     </Button>
@@ -56,7 +56,7 @@ function BillingRow(props) {
                         <Flex color={textColor} cursor="pointer" align="center" p="12px">
                             <Icon as={FaPencilAlt} me="4px"/>
                             <Text fontSize="sm" fontWeight="semibold">
-                                EDIT
+                               ویرایش
                             </Text>
                         </Flex>
                     </Button>

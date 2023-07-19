@@ -32,7 +32,7 @@ const ProfileInformation = ({
                     </Text>
                     <Flex align='center' mb='18px'>
                         <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-                            Full Name:{" "}
+                            نام کامل:{" "}
                         </Text>
                         <Text fontSize='md' color='gray.500' fontWeight='400'>
                             {name}
@@ -40,7 +40,7 @@ const ProfileInformation = ({
                     </Flex>
                     <Flex align='center' mb='18px'>
                         <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-                            Mobile:{" "}
+                            تلفن همراه:{" "}
                         </Text>
                         <Text fontSize='md' color='gray.500' fontWeight='400'>
                             {mobile}
@@ -48,7 +48,7 @@ const ProfileInformation = ({
                     </Flex>
                     <Flex align='center' mb='18px'>
                         <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-                            Email:{" "}
+                            ایمیل:{" "}
                         </Text>
                         <Text fontSize='md' color='gray.500' fontWeight='400'>
                             {email}
@@ -56,7 +56,7 @@ const ProfileInformation = ({
                     </Flex>
                     <Flex align='center' mb='18px'>
                         <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-                            Location:{" "}
+                            موقعیت:{" "}
                         </Text>
                         <Text fontSize='md' color='gray.500' fontWeight='400'>
                             {location}
@@ -64,7 +64,7 @@ const ProfileInformation = ({
                     </Flex>
                     <Flex align='center' mb='18px'>
                         <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-                            Social Media:{" "}
+                            شبکه‌های اجتماعی:{" "}
                         </Text>
                         <Flex>
                             <Link

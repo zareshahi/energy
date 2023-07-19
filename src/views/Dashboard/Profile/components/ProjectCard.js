@@ -36,7 +36,7 @@ const ProjectCard = ({image, name, category, avatars, description}) => {
                         h='36px'
                         fontSize='xs'
                         px='1.5rem'>
-                        VIEW PROJECT
+                        نمایش پروژه
                     </Button>
                     <AvatarGroup size='xs'>
                         {avatars.map((el, idx) => {

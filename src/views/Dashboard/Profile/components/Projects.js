@@ -38,28 +38,28 @@ const Projects = ({title, description}) => {
                     gap='24px'>
                     <ProjectCard
                         image={imageArchitect1}
-                        name={"Project #1"}
-                        category={"Modern"}
+                        name={"پروژه #1"}
+                        category={"مدرن"}
                         description={
-                            "As Uber works through a huge amount of internal management turmoil."
+                            "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است "
                         }
                         avatars={[avatar2, avatar4, avatar6]}
                     />
                     <ProjectCard
                         image={imageArchitect2}
-                        name={"Project #2"}
-                        category={"Scandinavian"}
+                        name={"پروژه #2"}
+                        category={"اسکاندیناوی"}
                         description={
-                            "Music is something that every person has his or her own specific opinion about."
+                            "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است "
                         }
                         avatars={[avatar4, avatar2, avatar6, avatar4]}
                     />
                     <ProjectCard
                         image={imageArchitect3}
-                        name={"Project #3"}
-                        category={"Minimalist"}
+                        name={"پروژه #3"}
+                        category={"مینیمالیست"}
                         description={
-                            "Different people have different taste, especially various types of music."
+                            "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است "
                         }
                         avatars={[avatar2, avatar4, avatar6]}
                     />
@@ -73,7 +73,7 @@ const Projects = ({title, description}) => {
                         <Flex direction='column' justifyContent='center' align='center'>
                             <Icon as={FaPlus} fontSize='lg' mb='12px'/>
                             <Text fontSize='lg' fontWeight='bold'>
-                                Create a New Project
+                                ایجاد یک پروژه جدید
                             </Text>
                         </Flex>
                     </Button>

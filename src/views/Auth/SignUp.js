@@ -52,7 +52,7 @@ function SignUp() {
                 mt='6.5rem'
                 mb='30px'>
                 <Text fontSize='4xl' color='white' fontWeight='bold'>
-                    Welcome!
+                    خوش آمدید!
                 </Text>
                 <Text
                     fontSize='md'
@@ -61,8 +61,7 @@ function SignUp() {
                     mt='10px'
                     mb='26px'
                     w={{base: "90%", sm: "60%", lg: "40%", xl: "30%"}}>
-                    Use these awesome forms to login or create new account in your project
-                    for free.
+                    از این فرم استفاده کنید تا برای ورود به نرم‌افزار ثبت نام کنید.
                 </Text>
             </Flex>
             <Flex alignItems='center' justifyContent='center' mb='60px' mt='20px'>
@@ -81,7 +80,7 @@ function SignUp() {
                         fontWeight='bold'
                         textAlign='center'
                         mb='22px'>
-                        Register With
+                        ثبت نام با استفاده از
                     </Text>
                     <HStack spacing='15px' justify='center' mb='22px'>
                         <Flex
@@ -148,49 +147,49 @@ function SignUp() {
                         fontWeight='bold'
                         textAlign='center'
                         mb='22px'>
-                        or
+                        یا
                     </Text>
-                    <FormControl>
+                    <FormControl style={{direction:'rtl'}}>
                         <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                            Name
+                            نام
                         </FormLabel>
                         <Input
                             fontSize='sm'
                             ms='4px'
                             borderRadius='15px'
                             type='text'
-                            placeholder='Your full name'
+                            placeholder='نام کامل شما'
                             mb='24px'
                             size='lg'
                         />
                         <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                            Email
+                            ایمیل
                         </FormLabel>
                         <Input
                             fontSize='sm'
                             ms='4px'
                             borderRadius='15px'
                             type='email'
-                            placeholder='Your email address'
+                            placeholder='ایمیل شما'
                             mb='24px'
                             size='lg'
                         />
                         <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                            Password
+                            رمز عبور
                         </FormLabel>
                         <Input
                             fontSize='sm'
                             ms='4px'
                             borderRadius='15px'
                             type='password'
-                            placeholder='Your password'
+                            placeholder='رمز عبور شما'
                             mb='24px'
                             size='lg'
                         />
                         <FormControl display='flex' alignItems='center' mb='24px'>
                             <Switch id='remember-login' colorScheme='teal' me='10px' style={{direction:"ltr"}}/>
                             <FormLabel htmlFor='remember-login' mb='0' fontWeight='normal'>
-                                Remember me
+                                مرا به خاطر بسپار
                             </FormLabel>
                         </FormControl>
                         <Button
@@ -208,7 +207,7 @@ function SignUp() {
                             _active={{
                                 bg: "teal.400",
                             }}>
-                            SIGN UP
+                            ثبت نام
                         </Button>
                     </FormControl>
                     <Flex
@@ -218,14 +217,14 @@ function SignUp() {
                         maxW='100%'
                         mt='0px'>
                         <Text color={textColor} fontWeight='medium'>
-                            Already have an account?
+                            آیا از قبل اکانت دارید؟
                             <Link
                                 color={titleColor}
                                 as='span'
                                 ms='5px'
                                 href='#'
                                 fontWeight='bold'>
-                                Sign In
+                                ورود
                             </Link>
                         </Text>
                     </Flex>

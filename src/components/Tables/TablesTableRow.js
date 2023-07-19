@@ -40,8 +40,8 @@ function TablesTableRow(props) {
             </Td>
             <Td>
                 <Badge
-                    bg={status === "Online" ? "green.400" : bgStatus}
-                    color={status === "Online" ? "white" : colorStatus}
+                    bg={status === "آنلاین" ? "green.400" : bgStatus}
+                    color={status === "آنلاین" ? "white" : colorStatus}
                     fontSize="16px"
                     p="3px 10px"
                     borderRadius="8px"
@@ -62,7 +62,7 @@ function TablesTableRow(props) {
                         fontWeight="bold"
                         cursor="pointer"
                     >
-                        Edit
+                        ویرایش
                     </Text>
                 </Button>
             </Td>

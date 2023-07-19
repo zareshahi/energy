@@ -23,14 +23,15 @@ export function SidebarHelp(props) {
                 <QuestionIcon color="teal.300" h="18px" w="18px"/>
             </IconBox>
             <Text fontSize="sm" color="white" fontWeight="bold">
-                Need help?
+                به راهنمایی نیاز دارید؟
             </Text>
             <Text fontSize="xs" color="white" mb="10px">
-                Please check our docs
+                لطفا مستندات را بررسی کنید
             </Text>
             <Link
                 w="100%"
-                href="https://demos.creative-tim.com/docs-purity-ui-dashboard/"
+                target='_blank'
+                href="https://github.com/zareshahi/energy/wiki"
             >
                 <Button
                     fontSize="10px"
@@ -48,7 +49,7 @@ export function SidebarHelp(props) {
                     }}
                     color="black"
                 >
-                    DOCUMENTATION
+                    مستندات
                 </Button>
             </Link>
         </Flex>

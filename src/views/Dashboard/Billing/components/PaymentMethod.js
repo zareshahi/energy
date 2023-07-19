@@ -25,7 +25,7 @@ const PaymentMethod = ({title, mastercard, visa}) => {
                         {title}
                     </Text>
                     <Button bg={bgButton} color='white' fontSize='xs' variant='no-hover'>
-                        ADD NEW CARD
+                        اضافه کردن
                     </Button>
                 </Flex>
             </CardHeader>
@@ -49,7 +49,7 @@ const PaymentMethod = ({title, mastercard, visa}) => {
                         <IconBox me='10px' w='25px' h='22px'>
                             {mastercard.icon}
                         </IconBox>
-                        <Text color='gray.400' fontSize='md' fontWeight='semibold'>
+                        <Text color='gray.400' fontSize='md' fontWeight='semibold' style={{direction:"ltr"}}>
                             {mastercard.number}
                         </Text>
                         <Spacer/>
@@ -73,7 +73,7 @@ const PaymentMethod = ({title, mastercard, visa}) => {
                         <IconBox me='10px' w='25px' h='25px'>
                             {visa.icon}
                         </IconBox>
-                        <Text color='gray.400' fontSize='md' fontWeight='semibold'>
+                        <Text color='gray.400' fontSize='md' fontWeight='semibold' style={{direction:"ltr"}}>
                             {visa.number}
                         </Text>
                         <Spacer/>

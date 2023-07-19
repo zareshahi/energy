@@ -21,7 +21,9 @@ const CreditCard = ({
             bgPosition='10%'
             p='16px'
             h={{sm: "220px", xl: "100%"}}
-            gridArea={{md: "1 / 1 / 2 / 3", xl: "1 / 1 / 2 / 3"}}>
+            gridArea={{md: "1 / 1 / 2 / 3", xl: "1 / 1 / 2 / 3"}}
+            style={{direction:'ltr'}}
+        >
             <CardBody h='100%' w='100%'>
                 <Flex
                     direction='column'

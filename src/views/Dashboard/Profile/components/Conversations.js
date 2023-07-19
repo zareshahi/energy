@@ -39,7 +39,7 @@ const Conversations = ({title}) => {
                                     Sophie B.{" "}
                                 </Text>
                                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                                    Hi! I need more information...
+                                    سلام من به اطلاعات بیشتر احتیاج دارم ...
                                 </Text>
                             </Flex>
                         </Flex>
@@ -49,7 +49,7 @@ const Conversations = ({title}) => {
                                 fontWeight='600'
                                 color='teal.300'
                                 alignSelf='center'>
-                                REPLY
+                                پاسخ
                             </Text>
                         </Button>
                     </Flex>
@@ -67,7 +67,7 @@ const Conversations = ({title}) => {
                                     Sophie B.{" "}
                                 </Text>
                                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                                    Awesome work, can you change...
+                                    کار خوبی هست شما میتونید اون رو تغییر بدید...
                                 </Text>
                             </Flex>
                         </Flex>
@@ -77,7 +77,7 @@ const Conversations = ({title}) => {
                                 fontWeight='600'
                                 color='teal.300'
                                 alignSelf='center'>
-                                REPLY
+                                پاسخ
                             </Text>
                         </Button>
                     </Flex>
@@ -95,7 +95,7 @@ const Conversations = ({title}) => {
                                     Sophie B.{" "}
                                 </Text>
                                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                                    Have a great afternoon...
+                                    چه بعد از ظهر خوبی ...
                                 </Text>
                             </Flex>
                         </Flex>
@@ -105,7 +105,7 @@ const Conversations = ({title}) => {
                                 fontWeight='600'
                                 color='teal.300'
                                 alignSelf='center'>
-                                REPLY
+                                پاسخ
                             </Text>
                         </Button>
                     </Flex>
@@ -123,7 +123,7 @@ const Conversations = ({title}) => {
                                     Sophie B.{" "}
                                 </Text>
                                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                                    About files I can...
+                                    من می‌تونم فایل‌ها رو تغییر بدم...
                                 </Text>
                             </Flex>
                         </Flex>
@@ -133,7 +133,7 @@ const Conversations = ({title}) => {
                                 fontWeight='600'
                                 color='teal.300'
                                 alignSelf='center'>
-                                REPLY
+                                پاسخ
                             </Text>
                         </Button>
                     </Flex>
@@ -151,7 +151,7 @@ const Conversations = ({title}) => {
                                     Sophie B.{" "}
                                 </Text>
                                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                                    About files I can...
+                                    من پروژه شماره ۲ رو انجام دادم ...
                                 </Text>
                             </Flex>
                         </Flex>
@@ -161,7 +161,7 @@ const Conversations = ({title}) => {
                                 fontWeight='600'
                                 color='teal.300'
                                 alignSelf='center'>
-                                REPLY
+                                پاسخ
                             </Text>
                         </Button>
                     </Flex>

@@ -85,7 +85,7 @@ export const barChartOptions = {
 
 export const lineChartData = [
     {
-        name: "نرم افزارهای موبایلی",
+        name: "نرم‌افزارهای موبایلی",
         data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
     },
     {

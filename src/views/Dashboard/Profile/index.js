@@ -29,38 +29,38 @@ function Profile() {
                 email={"esthera@simmmple.com"}
                 tabs={[
                     {
-                        name: "OVERVIEW",
+                        name: "نمای کلی",
                         icon: <FaCube w='100%' h='100%'/>,
                     },
                     {
-                        name: "TEAMS",
+                        name: "تیم‌ها",
                         icon: <IoDocumentsSharp w='100%' h='100%'/>,
                     },
                     {
-                        name: "PROJECTS",
+                        name: "پروژه‌ها",
                         icon: <FaPenFancy w='100%' h='100%'/>,
                     },
                 ]}
             />
             <Grid templateColumns={{sm: "1fr", xl: "repeat(3, 1fr)"}} gap='22px'>
                 <PlatformSettings
-                    title={"Platform Settings"}
-                    subtitle1={"ACCOUNT"}
-                    subtitle2={"APPLICATION"}
+                    title={"تنظیمات"}
+                    subtitle1={"حساب کاربری"}
+                    subtitle2={"نرم‌افزار"}
                 />
                 <ProfileInformation
-                    title={"Profile Information"}
+                    title={"اطلاعات پروفایل"}
                     description={
-                        "Hi, I’m Esthera Jackson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+                        "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد."
                     }
                     name={"Esthera Jackson"}
                     mobile={"(44) 123 1234 123"}
                     email={"esthera@simmmple.com"}
                     location={"United States"}
                 />
-                <Conversations title={"Conversations"}/>
+                <Conversations title={"مکالمات"}/>
             </Grid>
-            <Projects title={"Projects"} description={"Architects design houses"}/>
+            <Projects title={"پروژه‌ها"} description={"معماران خانه‌ها را طراحی می‌کنند"}/>
         </Flex>
     );
 }
